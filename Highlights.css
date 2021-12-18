@@ -36,7 +36,7 @@ makes favorite tags have no border. ditto as above.
 }
 /*
 The actual highlighting code!
-Avoid spaces in tag names as they will stop the code working. 
+If there is a space in a character name then put %20 where the space would be.
 You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
 I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
 
@@ -44,11 +44,10 @@ I like this website for getting Hex codes: https://www.w3schools.com/colors/colo
 Character tags. 
 ==
 When adding a new tag, put a comma after the last tag you added. 
-If there is a space in a character name use the first part of a characters name or their last name if it is unique enough to be recognised by the code. 
-I'm working on seeing if there is a way aroud this for characters who's names will not be recognised i.e. Drag Strip.
 */
 li.characters a.tag[href*="Motormaster"], 
-li.characters a.tag[href*="Vortex"]{
+li.characters a.tag[href*="Vortex"],
+li.characters a.tag[href*="First%20Aid"]{
   background-color: #ff9966;
 }
 /*
