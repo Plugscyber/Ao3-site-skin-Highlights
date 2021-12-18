@@ -7,7 +7,8 @@ So bookmark this page if you need them as reference! To use copy and paste every
 */
 
 /*
-This styles the tags so they are rounded, wider and have no commas between. If you want the default ao3 tag styling delete this.
+This styles the tags so they are rounded, wider and have no commas between as it shows the colours up better.
+If you want the default ao3 tag styling delete this.
 */
 a.tag,
 a.tag:visited,
@@ -33,6 +34,12 @@ makes favorite tags have no border. ditto as above.
 */
 .favorite a.tag {
   border: none;
+}
+/*
+all tags that aren't fandom tags have a grey background to make tag colour variations easier to see.
+*/
+a.tag{
+  background: #eee;
 }
 /*
 The actual highlighting code!
