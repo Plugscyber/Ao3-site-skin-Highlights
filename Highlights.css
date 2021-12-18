@@ -46,7 +46,7 @@ Character tags.
 When adding a new tag, put a comma after the last tag you added. 
 If there is a space in a character name use the first part of a characters name or their last name if it is unique enough to be recognised by the code. 
 I'm working on seeing if there is a way aroud this for characters who's names will not be recognised i.e. Drag Strip.
-/*
+*/
 li.characters a.tag[href*="Motormaster"], 
 li.characters a.tag[href*="Vortex"]{
   background-color: #ff9966;
@@ -56,6 +56,7 @@ li.characters a.tag[href*="Vortex"]{
 Relationship tags.
 ==
 Make sure to write slashes as *s* so they are recognised by the code.
+*/
 li.relationships a.tag[href*="Breakdown*s*Motormaster"],
 li.relationships a.tag[href*="Breakdown*s*Motormaster"]
 {
