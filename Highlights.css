@@ -1,0 +1,72 @@
+/* 
+===
+HighLights
+===
+inspited by Nona (LonlyNine)'s Skin for Tag highlighting. The comments in this code will vanish once you click 'use on this skin.
+So bookmark this page if you need them as reference!
+*/
+
+/*
+This styles the tags so they are rounded, wider and have no commas between. If you want the default ao3 tag styling delete this.
+*/
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 3px 6px;
+  margin: 4px 0px;
+  border-radius: 5px;
+}
+
+.commas li:after {
+  content: "";
+}
+/* 
+Makes fandom tags transparent. Again delete if you don't like.
+*/
+
+h5.fandoms.heading {
+  color: transparent;
+}
+/* 
+makes favorite tags have no border. ditto as above.
+*/
+.favorite a.tag {
+  border: none;
+}
+/*
+The actual highlighting code!
+Avoid spaces in tag names as they will stop the code working. 
+You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
+I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
+
+==
+Character tags. 
+==
+When adding a new tag, put a comma after the last tag you added. 
+If there is a space in a character name use the first part of a characters name or their last name if it is unique enough to be recognised by the code. 
+I'm working on seeing if there is a way aroud this for characters who's names will not be recognised i.e. Drag Strip.
+/*
+li.characters a.tag[href*="Motormaster"], 
+li.characters a.tag[href*="Vortex"]{
+  background-color: #ff9966;
+}
+/*
+==
+Relationship tags.
+==
+Make sure to write slashes as *s* so they are recognised by the code.
+li.relationships a.tag[href*="Breakdown*s*Motormaster"],
+li.relationships a.tag[href*="Breakdown*s*Motormaster"]
+{
+  background-color: #ff9966;
+}
+/*
+==
+Additional tags
+==
+*/
+li.blurb a.tag[href*="Gore"],
+li.blurb a.tag[href*="Vore"]{
+  background-color: #ff9966;
+}
