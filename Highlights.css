@@ -69,7 +69,7 @@ Make sure to write slashes as *s* and & as *a* so they are recognised by the cod
 */
 li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
-li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider (Transformers)"]
+li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
 
 {
   background-color: #ff9966;
