@@ -46,11 +46,12 @@ I like this website for getting Hex codes: https://www.w3schools.com/colors/colo
 ==
 Character tags. 
 ==
-When adding a new tag, put a comma after the last tag you added. 
+When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
+Just remeber the %20!
 */
-li.characters a.tag[href*="Motormaster"], 
-li.characters a.tag[href*="Vortex"],
-li.characters a.tag[href*="First%20Aid"]{
+li.characters a.tag[href*="Motormaster%20(Transformers"], 
+li.characters a.tag[href*="Vortex%20(Transformers)"],
+li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
   background-color: #ff9966;
 }
 /*
@@ -59,8 +60,8 @@ Relationship tags.
 ==
 Make sure to write slashes as *s* so they are recognised by the code.
 */
-li.relationships a.tag[href*="Breakdown*s*Motormaster"],
-li.relationships a.tag[href*="Breakdown*s*Motormaster"]
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"]
 {
   background-color: #ff9966;
 }
