@@ -43,6 +43,18 @@ a.tag{
   background: #eee;
 }
 /*
+Scrolling tags for long tag fields
+*/
+li.blurb .tags {
+  max-height: 8.5em;
+  overflow-y: auto;
+}
+
+li.blurb .fandoms {
+  max-height: 3.75em;
+  overflow-y: auto;
+}
+/*
 The actual highlighting code!
 If there is a space in a character name then put %20 where the space would be. 
 Tags are case sensitive so if you put "First%20aid" in the tag section it will not pick up the tag "First Aid".
