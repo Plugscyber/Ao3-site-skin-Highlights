@@ -1,0 +1,82 @@
+/* 
+===
+HighLights
+===
+inspited by Nona (LonlyNine)'s Skin for Tag highlighting. The comments in this code will vanish once you click 'use on this skin.
+So bookmark this page if you need them as reference! To use copy and paste everything you find here into a new Ao3 site skin's 'write custom css' text box.
+*/
+
+/*
+This styles the tags so they are rounded, wider and have no commas between as it shows the colours up better.
+If you want the default ao3 tag styling delete this.
+*/
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 3px 6px;
+  margin: 4px 0px;
+  border-radius: 5px;
+}
+
+.commas li:after {
+  content: "";
+}
+/* 
+Makes fandom tags transparent. Again delete if you don't like.
+*/
+
+h5.fandoms.heading {
+  color: transparent;
+}
+/* 
+makes favorite tags have no border. ditto as above.
+*/
+.favorite a.tag {
+  border: none;
+}
+/*
+all tags that aren't fandom tags have a grey background to make tag colour variations easier to see.
+*/
+a.tag{
+  background: #eee;
+}
+/*
+The actual highlighting code!
+If there is a space in a character name then put %20 where the space would be. 
+Tags are case sensitive so if you put "First%20aid" in the tag section it will not pick up the tag "First Aid".
+You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
+I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
+==
+Character tags. 
+==
+When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
+Just remeber the %20!
+*/
+li.characters a.tag[href*="Motormaster%20(Transformers"], 
+li.characters a.tag[href*="Vortex%20(Transformers)"],
+li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
+  background-color: #ff9966;
+}
+/*
+==
+Relationship tags.
+==
+Make sure to write slashes as *s* and & as *a* so they are recognised by the code.
+*/
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
+
+{
+  background-color: #ff9966;
+}
+/*
+==
+Additional tags
+==
+*/
+li.blurb a.tag[href*="Gore"],
+li.blurb a.tag[href*="Vore"]{
+  background-color: #ff9966;
+}
