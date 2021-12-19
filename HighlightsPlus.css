@@ -1,9 +1,10 @@
 /* 
 ===
-HighLights
+HighLightsPlus
 ===
 inspited by Nona (LonlyNine)'s Skin for Tag highlighting. The comments in this code will vanish once you click 'use on this skin.
 So bookmark this page if you need them as reference! To use copy and paste everything you find here into a new Ao3 site skin's 'write custom css' text box.
+This allows you to highlight tags as green, orange or red. Do not have the same tag set as two diffrent colours, one will just overide the other.
 */
 
 /*
@@ -47,8 +48,11 @@ If there is a space in a character name then put %20 where the space would be.
 Tags are case sensitive so if you put "First%20aid" in the tag section it will not pick up the tag "First Aid".
 You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
 I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
+===
+Green tags.
+===
 ==
-Character tags. 
+Character tags
 ==
 When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
 Just remeber the %20!
@@ -56,7 +60,44 @@ Just remeber the %20!
 li.characters a.tag[href*="Motormaster%20(Transformers"], 
 li.characters a.tag[href*="Vortex%20(Transformers)"],
 li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
-  background-color: #ff9966;
+  background-color: #ccff99;
+}
+/*
+==
+Relationship tags.
+==
+Make sure to write slashes as *s* and & as *a* so they are recognised by the code. Write ampersands as *a*.
+*/
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
+
+{
+  background-color: #ccff99;
+}
+/*
+==
+Additional tags
+==
+*/
+li.blurb a.tag[href*="Gore"],
+li.blurb a.tag[href*="Vore"]{
+  background-color: #ccff99;
+}
+ /*
+===
+Amber tags.
+===
+==
+Character tags
+==
+When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
+Just remeber the %20!
+*/
+li.characters a.tag[href*="Motormaster%20(Transformers"], 
+li.characters a.tag[href*="Vortex%20(Transformers)"],
+li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
+  background-color:#ffcc99;
 }
 /*
 ==
@@ -69,7 +110,7 @@ li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
 
 {
-  background-color: #ff9966;
+  background-color: #ffcc99;
 }
 /*
 ==
@@ -78,5 +119,42 @@ Additional tags
 */
 li.blurb a.tag[href*="Gore"],
 li.blurb a.tag[href*="Vore"]{
-  background-color: #ff9966;
+  background-color: #ffcc99;
+}
+ /*
+===
+Red tags.
+===
+==
+Character tags
+==
+When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
+Just remeber the %20!
+*/
+li.characters a.tag[href*="Motormaster%20(Transformers"], 
+li.characters a.tag[href*="Vortex%20(Transformers)"],
+li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
+  background-color:#ffcccc;
+}
+/*
+==
+Relationship tags.
+==
+Make sure to write slashes as *s* and & as *a* so they are recognised by the code.
+*/
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
+
+{
+  background-color: ##ffcccc;
+}
+/*
+==
+Additional tags
+==
+*/
+li.blurb a.tag[href*="Gore"],
+li.blurb a.tag[href*="Vore"]{
+  background-color: #ffcccc;
 }
