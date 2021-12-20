@@ -108,7 +108,7 @@ Just remeber the %20!
 */
 li.characters a.tag[href*="Mixmaster%20(Transformers"], 
 li.characters a.tag[href*="Blastoff%20(Transformers)"],
-li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
+li.characters a.tag[href*="Drag%20Strip%20(Transformers)"]{
   background-color:#ffcc99;
 }
 /*
@@ -118,8 +118,8 @@ Relationship tags.
 Make sure to write slashes as *s* and & as *a* so they are recognised by the code.
 */
 li.relationships a.tag[href*="Breakdown*s*Knockout%20(Transformers)"],
-li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
-li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
+li.relationships a.tag[href*="Motormaster*s*Scrapper%20(Transformers)"],
+li.relationships a.tag[href*="Jazz%20*a*%20Prowl%20(Transformers)"] {
 
 {
   background-color: #ffcc99;
@@ -129,8 +129,8 @@ li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
 Additional tags
 ==
 */
-li.blurb a.tag[href*="Gore"],
-li.blurb a.tag[href*="Vore"]{
+li.blurb a.tag[href*="Fluff"],
+li.blurb a.tag[href*="Violence"]{
   background-color: #ffcc99;
 }
  /*
@@ -143,9 +143,9 @@ Character tags
 When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
 Just remeber the %20 for spaces.
 */
-li.characters a.tag[href*="Motormaster%20(Transformers"], 
-li.characters a.tag[href*="Vortex%20(Transformers)"],
-li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
+li.characters a.tag[href*="Arcee%20(Transformers"], 
+li.characters a.tag[href*="Scavenger%20(Transformers)"],
+li.characters a.tag[href*="Dead%20End%20(Transformers)"]{
   background-color:#ffcccc;
 }
 /*
@@ -154,9 +154,9 @@ Relationship tags.
 ==
 Make sure to write slashes as *s* and & as *a* so they are recognised by the code.
 */
-li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
-li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
-li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
+li.relationships a.tag[href*="Dead%20End*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Jazz*s*Optimus%20Prime%20(Transformers)"],
+li.relationships a.tag[href*="Optimus%20Prime%20*a*%20Megatron%20(Transformers)"] {
 
 {
   background-color: ##ffcccc;
@@ -166,7 +166,7 @@ li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
 Additional tags
 ==
 */
-li.blurb a.tag[href*="Gore"],
-li.blurb a.tag[href*="Vore"]{
+li.blurb a.tag[href*="Fake%20Dating"],
+li.blurb a.tag[href*="Mechpreg"]{
   background-color: #ffcccc;
 }
