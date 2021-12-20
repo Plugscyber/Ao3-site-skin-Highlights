@@ -82,9 +82,7 @@ Make sure to write slashes as *s* and & as *a* so they are recognised by the cod
 */
 li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Prowl*s*Jazz%20(Transformers)"],
-li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"] {
-
-{
+li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"]{
   background-color: #ccff99;
 }
 /*
@@ -157,8 +155,6 @@ Make sure to write slashes as *s* and & as *a* so they are recognised by the cod
 li.relationships a.tag[href*="Dead%20End*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Jazz*s*Optimus%20Prime%20(Transformers)"],
 li.relationships a.tag[href*="Optimus%20Prime%20*a*%20Megatron%20(Transformers)"] {
-
-{
   background-color: ##ffcccc;
 }
 /*
