@@ -118,9 +118,11 @@ h5.fandoms.heading a.tag[href*="The%20Transformers%20(IDW%20Generation%20One)"] 
 ==
 Character tags
 ==
-When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom.  Write | as 7C. i.e.
-Drift%207C%20Deadlock
-Just remeber the %20!
+When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
+Write spaces as %20 i.e. Mixmaster%20(Transformers)
+Write | as 7C. i.e. Drift%207C%20Deadlock
+Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
+
 */
 li.characters a.tag[href*="Mixmaster%20(Transformers"], 
 li.characters a.tag[href*="Blastoff%20(Transformers)"],
