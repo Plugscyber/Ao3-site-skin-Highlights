@@ -10,5 +10,6 @@ Symbols and characters ect in tags that work with this skin currently.
 5. dashes
 6. colons
 7. whatever these are called |
+8. speech marks
 
 
