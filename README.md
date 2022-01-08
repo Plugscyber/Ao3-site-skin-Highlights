@@ -8,5 +8,6 @@ Symbols and characters ect in tags that work with this skin currently.
 3. ampersands 
 4. rounded brackets
 5. dashes
+6. 6.colons
 
 
