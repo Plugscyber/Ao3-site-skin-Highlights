@@ -8,5 +8,6 @@ Symbols and characters ect in tags that work with this skin currently.
 3. ampersands 
 4. rounded brackets
 
+Things to add
 
-
+1. fandom tag highlighting.
