@@ -61,6 +61,20 @@ Tags are case sensitive so if you put "First%20aid" in the tag section it will n
 
 You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
 I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
+
+When adding a new tag, put a comma after the *previous* tag. The last tag before background-color should be comma free. 
+
+Code for symbols and characters
+
+Rounded brackets and dashes work without change.
+Write spaces as %20 i.e. Mixmaster%20(Transformers)
+Write | as 7C. i.e. Drift%207C%20Deadlock 
+Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
+Write / as *s* i.e. Breakdown*s*Motormaster%20(Transformers) 
+Write & as *a* i.e. Breakdown%20*a*%20Wildrider%20(Transformers) 
+
+
+
 ===
 Fandom tags
 ===
@@ -74,25 +88,24 @@ h5.fandoms.heading a.tag[href*="Transformers%20-%20All%20Media%20Types"] {
 ==
 Character tags. 
 ==
-When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
-Write spaces as %20 i.e. Mixmaster%20(Transformers)
-Write | as 7C. i.e. Drift%207C%20Deadlock
-Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
+
 */
 li.characters a.tag[href*="Motormaster%20(Transformers"], 
 li.characters a.tag[href*="Vortex%20(Transformers)"],
-li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
+li.characters a.tag[href*="First%20Aid%20(Transformers)"]
+{
   background-color: #ff9966;
 }
 /*
 ==
 Relationship tags.
 ==
-Make sure to write slashes as *s*, & as *a* and | as 7C so they are recognised by the code as shown below.
+
 */
 li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Drift%20%7C%20Deadlock*s*Ratchet"],
-li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"]{
+li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"]
+{
   background-color: #ff9966;
 }
 /*
