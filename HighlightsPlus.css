@@ -79,7 +79,7 @@ fandom tags
 */
 h5.fandoms.heading a.tag[href*="Transformers%20-%20All%20Media%20Types"] 
 {
-  background-color: #ccff99;
+  background-color: #66ff33;
 }
 /*
 ==
@@ -91,7 +91,7 @@ li.characters a.tag[href*="Motormaster%20(Transformers)"],
 li.characters a.tag[href*="Vortex%20(Transformers)"],
 li.characters a.tag[href*="First%20Aid%20(Transformers)"]
 {
-  background-color: #ccff99;
+  background-color: #66ff33;
 }
 /*
 ==
@@ -103,7 +103,7 @@ li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Drift%20%7C%20Deadlock*s*Ratchet"],
 li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"]
 {
-  background-color: #ccff99;
+  background-color: #66ff33;
 }
 /*
 ==
@@ -113,7 +113,7 @@ Additional tags
 li.blurb a.tag[href*="Gore"],
 li.blurb a.tag[href*="Vore"]
 {
-  background-color: #ccff99;
+  background-color: #66ff33;
 }
  /*
 ===
@@ -125,7 +125,7 @@ fandom tags
 */
 h5.fandoms.heading a.tag[href*="The%20Transformers%20(IDW%20Generation%20One)"] 
 {
-  background-color: #ffcc99;
+  background-color: #ffad33;
 }
 /*
 ==
@@ -137,7 +137,7 @@ li.characters a.tag[href*="Mixmaster%20(Transformers"],
 li.characters a.tag[href*="Blastoff%20(Transformers)"],
 li.characters a.tag[href*="Drag%20Strip%20(Transformers)"]
 {
-  background-color:#ffcc99;
+  background-color: #ffad33;
 }
 /*
 ==
@@ -149,7 +149,7 @@ li.relationships a.tag[href*="Breakdown*s*Knockout%20(Transformers)"],
 li.relationships a.tag[href*="Motormaster*s*Scrapper%20(Transformers)"],
 li.relationships a.tag[href*="Jazz%20*a*%20Prowl%20(Transformers)"] 
 {
-  background-color: #ffcc99;
+  background-color: #ffad33;
 }
 /*
 ==
@@ -159,7 +159,7 @@ Additional tags
 li.blurb a.tag[href*="Fluff"],
 li.blurb a.tag[href*="Violence"]
 {
-  background-color: #ffcc99;
+  background-color: #ffad33;
 }
  /*
 ===
@@ -171,7 +171,7 @@ fandom tags
 */
 h5.fandoms.heading a.tag[href*="Transformers:%20Beast%20Wars%20(Cartoon)"] 
 {
-  background-color: #ffcccc;
+  background-color: #ff3333;
 }
 /*
 ==
@@ -183,7 +183,7 @@ li.characters a.tag[href*="Arcee%20(Transformers"],
 li.characters a.tag[href*="Scavenger%20(Transformers)"],
 li.characters a.tag[href*="Dead%20End%20(Transformers)"]
 {
-  background-color:#ffcccc;
+  background-color: #ff3333;
 }
 /*
 ==
@@ -195,7 +195,7 @@ li.relationships a.tag[href*="Dead%20End*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Jazz*s*Optimus%20Prime%20(Transformers)"],
 li.relationships a.tag[href*="Optimus%20Prime%20*a*%20Megatron%20(Transformers)"] 
 {
-  background-color: #ffcccc;
+  background-color: #ff3333;
 }
 /*
 ==
@@ -204,5 +204,5 @@ Additional tags
 */
 li.blurb a.tag[href*="Fake%20Dating"],
 li.blurb a.tag[href*="Mechpreg"]{
-  background-color: #ffcccc;
+  background-color: #ff3333;
 }
