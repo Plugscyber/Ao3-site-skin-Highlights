@@ -60,6 +60,16 @@ If there is a space in a character name then put %20 where the space would be. P
 Tags are case sensitive so if you put "First%20aid" in the tag section it will not pick up the tag "First Aid".
 You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
 I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
+
+When adding a new tag, put a comma after the last tag you added. The code shows how this should be strutured.
+
+Rounded brackets and dashes work without change.
+Write spaces as %20 i.e. Mixmaster%20(Transformers)
+Write | as 7C. i.e. Drift%207C%20Deadlock 
+Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
+Write / as *s* i.e. Breakdown*s*Motormaster%20(Transformers) 
+Write & as *a* i.e. Breakdown%20*a*%20Wildrider%20(Transformers) 
+
 ===
 Green tags.
 ===
@@ -67,32 +77,32 @@ Green tags.
 fandom tags
 ===
 */
-h5.fandoms.heading a.tag[href*="Transformers%20-%20All%20Media%20Types"] {
+h5.fandoms.heading a.tag[href*="Transformers%20-%20All%20Media%20Types"] 
+{
   background-color: #ccff99;
 }
 /*
 ==
 Character tags
 ==
-When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
-Write spaces as %20 i.e. Mixmaster%20(Transformers)
-Write | as 7C. i.e. Drift%207C%20Deadlock
-Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
+
 */
 li.characters a.tag[href*="Motormaster%20(Transformers)"], 
 li.characters a.tag[href*="Vortex%20(Transformers)"],
-li.characters a.tag[href*="First%20Aid%20(Transformers)"]{
+li.characters a.tag[href*="First%20Aid%20(Transformers)"]
+{
   background-color: #ccff99;
 }
 /*
 ==
 Relationship tags.
 ==
-Make sure to write slashes as *s*, & as *a* and | as 7C so they are recognised by the code as shown below.
+
 */
 li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Drift%20%7C%20Deadlock*s*Ratchet"],
-li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"]{
+li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"]
+{
   background-color: #ccff99;
 }
 /*
@@ -101,7 +111,8 @@ Additional tags
 ==
 */
 li.blurb a.tag[href*="Gore"],
-li.blurb a.tag[href*="Vore"]{
+li.blurb a.tag[href*="Vore"]
+{
   background-color: #ccff99;
 }
  /*
@@ -112,33 +123,32 @@ Amber tags.
 fandom tags
 ===
 */
-h5.fandoms.heading a.tag[href*="The%20Transformers%20(IDW%20Generation%20One)"] {
+h5.fandoms.heading a.tag[href*="The%20Transformers%20(IDW%20Generation%20One)"] 
+{
   background-color: #ffcc99;
 }
 /*
 ==
 Character tags
 ==
-When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
-Write spaces as %20 i.e. Mixmaster%20(Transformers)
-Write | as 7C. i.e. Drift%207C%20Deadlock
-Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
 
 */
 li.characters a.tag[href*="Mixmaster%20(Transformers"], 
 li.characters a.tag[href*="Blastoff%20(Transformers)"],
-li.characters a.tag[href*="Drag%20Strip%20(Transformers)"]{
+li.characters a.tag[href*="Drag%20Strip%20(Transformers)"]
+{
   background-color:#ffcc99;
 }
 /*
 ==
 Relationship tags.
 ==
-Make sure to write slashes as *s*, & as *a* and | as 7C so they are recognised by the code as shown below.
+
 */
 li.relationships a.tag[href*="Breakdown*s*Knockout%20(Transformers)"],
 li.relationships a.tag[href*="Motormaster*s*Scrapper%20(Transformers)"],
-li.relationships a.tag[href*="Jazz%20*a*%20Prowl%20(Transformers)"] {
+li.relationships a.tag[href*="Jazz%20*a*%20Prowl%20(Transformers)"] 
+{
   background-color: #ffcc99;
 }
 /*
@@ -147,7 +157,8 @@ Additional tags
 ==
 */
 li.blurb a.tag[href*="Fluff"],
-li.blurb a.tag[href*="Violence"]{
+li.blurb a.tag[href*="Violence"]
+{
   background-color: #ffcc99;
 }
  /*
@@ -158,32 +169,32 @@ Red tags.
 fandom tags
 ===
 */
-h5.fandoms.heading a.tag[href*="Transformers:%20Beast%20Wars%20(Cartoon)"] {
+h5.fandoms.heading a.tag[href*="Transformers:%20Beast%20Wars%20(Cartoon)"] 
+{
   background-color: #ffcccc;
 }
 /*
 ==
 Character tags
 ==
-When adding a new tag, put a comma after the last tag you added. Rounded brackets work so you can use those to indicate fandom. 
-Write spaces as %20 i.e. Mixmaster%20(Transformers)
-Write | as 7C. i.e. Drift%207C%20Deadlock
-Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
+
 */
 li.characters a.tag[href*="Arcee%20(Transformers"], 
 li.characters a.tag[href*="Scavenger%20(Transformers)"],
-li.characters a.tag[href*="Dead%20End%20(Transformers)"]{
+li.characters a.tag[href*="Dead%20End%20(Transformers)"]
+{
   background-color:#ffcccc;
 }
 /*
 ==
 Relationship tags.
 ==
-Make sure to write slashes as *s*, & as *a* and | as 7C so they are recognised by the code as shown below.
+
 */
 li.relationships a.tag[href*="Dead%20End*s*Motormaster%20(Transformers)"],
 li.relationships a.tag[href*="Jazz*s*Optimus%20Prime%20(Transformers)"],
-li.relationships a.tag[href*="Optimus%20Prime%20*a*%20Megatron%20(Transformers)"] {
+li.relationships a.tag[href*="Optimus%20Prime%20*a*%20Megatron%20(Transformers)"] 
+{
   background-color: #ffcccc;
 }
 /*
