@@ -1,0 +1,208 @@
+/* 
+===
+HighLightsPlus
+===
+inspited by Nona (LonlyNine)'s Skin for Tag highlighting. The comments in this code will vanish once you click 'use on this skin.
+So bookmark this page if you need them as reference! To use copy and paste everything you find here into a new Ao3 site skin's 'write custom css' text box.
+This allows you to highlight tags as dark blue, light blue or yellow. Do not have the same tag set as two diffrent colours, one will just overide the other.
+*/
+
+/*
+This styles the tags so they are rounded, wider and have no commas between as it shows the colours up better.
+If you want the default ao3 tag styling delete this.
+*/
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 3px 6px;
+  margin: 4px 0px;
+  border-radius: 5px;
+}
+
+.commas li:after {
+  content: "";
+}
+/* 
+Makes fandom tags transparent. Again delete if you don't like.
+*/
+
+h5.fandoms.heading {
+  color: transparent;
+}
+/* 
+makes favorite tags have no border. ditto as above.
+*/
+.favorite a.tag {
+  border: none;
+}
+/*
+all tags that aren't fandom tags have a grey background to make tag colour variations easier to see.
+*/
+a.tag{
+  background: #eee;
+}
+/*
+Scrolling tags for long tag fields
+*/
+li.blurb .tags {
+  max-height: 8.5em;
+  overflow-y: auto;
+}
+
+li.blurb .fandoms {
+  max-height: 3.75em;
+  overflow-y: auto;
+}
+/*
+The actual highlighting code!
+If there is a space in a character name then put %20 where the space would be. Put the tag name between the two speech marks.
+Tags are case sensitive so if you put "First%20aid" in the tag section it will not pick up the tag "First Aid".
+You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
+I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
+
+When adding a new tag, put a comma after the last tag you added. The code shows how this should be strutured.
+
+Rounded brackets, colons, dashes and exclamation marks work without change.
+Write spaces as %20 i.e. Mixmaster%20(Transformers)
+Write | as 7C. i.e. Drift%207C%20Deadlock 
+Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
+Write / as *s* i.e. Breakdown*s*Motormaster%20(Transformers) 
+Write & as *a* i.e. Breakdown%20*a*%20Wildrider%20(Transformers) 
+
+===
+Dark blue tags.
+===
+===
+fandom tags
+===
+*/
+h5.fandoms.heading a.tag[href*="Transformers%20-%20All%20Media%20Types"] 
+{
+  background-color:  #3366ff;
+}
+/*
+==
+Character tags
+==
+
+*/
+li.characters a.tag[href*="Motormaster%20(Transformers)"], 
+li.characters a.tag[href*="Vortex%20(Transformers)"],
+li.characters a.tag[href*="First%20Aid%20(Transformers)"]
+{
+  background-color:  #3366ff;
+}
+/*
+==
+Relationship tags.
+==
+
+*/
+li.relationships a.tag[href*="Breakdown*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Drift%20%7C%20Deadlock*s*Ratchet"],
+li.relationships a.tag[href*="Breakdown%20*a*%20Wildrider%20(Transformers)"]
+{
+  background-color:  #3366ff;
+}
+/*
+==
+Additional tags
+==
+*/
+li.blurb a.tag[href*="Gore"],
+li.blurb a.tag[href*="Vore"]
+{
+  background-color:  #3366ff;
+}
+ /*
+===
+Light blue tags.
+===
+===
+fandom tags
+===
+*/
+h5.fandoms.heading a.tag[href*="The%20Transformers%20(IDW%20Generation%20One)"] 
+{
+  background-color: #80aaff;
+}
+/*
+==
+Character tags
+==
+
+*/
+li.characters a.tag[href*="Mixmaster%20(Transformers"], 
+li.characters a.tag[href*="Blastoff%20(Transformers)"],
+li.characters a.tag[href*="Drag%20Strip%20(Transformers)"]
+{
+  background-color: #80aaff;
+}
+/*
+==
+Relationship tags.
+==
+
+*/
+li.relationships a.tag[href*="Breakdown*s*Knockout%20(Transformers)"],
+li.relationships a.tag[href*="Motormaster*s*Scrapper%20(Transformers)"],
+li.relationships a.tag[href*="Jazz%20*a*%20Prowl%20(Transformers)"] 
+{
+  background-color: #80aaff;
+}
+/*
+==
+Additional tags
+==
+*/
+li.blurb a.tag[href*="Fluff"],
+li.blurb a.tag[href*="Violence"]
+{
+  background-color: #80aaff;
+}
+ /*
+===
+yellow tags.
+===
+===
+fandom tags
+===
+*/
+h5.fandoms.heading a.tag[href*="Transformers:%20Beast%20Wars%20(Cartoon)"] 
+{
+  background-color: #ffcc66;
+}
+/*
+==
+Character tags
+==
+
+*/
+li.characters a.tag[href*="Arcee%20(Transformers"], 
+li.characters a.tag[href*="Scavenger%20(Transformers)"],
+li.characters a.tag[href*="Dead%20End%20(Transformers)"]
+{
+  background-color: #ffcc66;
+}
+/*
+==
+Relationship tags.
+==
+
+*/
+li.relationships a.tag[href*="Dead%20End*s*Motormaster%20(Transformers)"],
+li.relationships a.tag[href*="Jazz*s*Optimus%20Prime%20(Transformers)"],
+li.relationships a.tag[href*="Optimus%20Prime%20*a*%20Megatron%20(Transformers)"] 
+{
+  background-color: #ffcc66;
+}
+/*
+==
+Additional tags
+==
+*/
+li.blurb a.tag[href*="Fake%20Dating"],
+li.blurb a.tag[href*="Mechpreg"]{
+  background-color: #ffcc66;
+}
