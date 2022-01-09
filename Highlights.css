@@ -81,7 +81,8 @@ Fandom tags
 */
 
 }
-h5.fandoms.heading a.tag[href*="Transformers%20-%20All%20Media%20Types"] {
+h5.fandoms.heading a.tag[href*="Transformers%20-%20All%20Media%20Types"]
+{
   background-color: #ff9966;
 }
 /*
