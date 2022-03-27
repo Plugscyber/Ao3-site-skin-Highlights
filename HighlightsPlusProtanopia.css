@@ -70,6 +70,9 @@ Write " as %22  i.e. Rafael%20%22Raf%22%20Esquivel
 Write / as *s* i.e. Breakdown*s*Motormaster%20(Transformers) 
 Write & as *a* i.e. Breakdown%20*a*%20Wildrider%20(Transformers) 
 
+
+To make tags case insenstive add a letter i to the end i.e. [href*="first%20aid" i] 
+
 ===
 Dark blue tags.
 ===
