@@ -58,8 +58,12 @@ li.blurb .fandoms {
 The actual highlighting code!
 If there is a space in a character name then put %20 where the space would be. Put the tag name between the two speech marks.
 Tags are case sensitive so if you put "First%20aid" in the tag section it will not pick up the tag "First Aid".
+
 You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
 I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
+
+However, you can also use these recognised colour names instead! 
+Simply put them where the hex colour is. https://www.w3schools.com/colors/colors_names.asp
 
 When adding a new tag, put a comma after the last tag you added. The code shows how this should be strutured.
 
