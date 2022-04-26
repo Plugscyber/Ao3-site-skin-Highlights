@@ -62,6 +62,9 @@ Tags are case sensitive so if you put "First%20aid" in the tag section it will n
 You can change the colours of the tags by changing the number and letter code with a hashtag in front. This is called a Hex code.
 I like this website for getting Hex codes: https://www.w3schools.com/colors/colors_picker.asp
 
+However, you can also use these recognised colour names instead! 
+Simply put them where the hex colour is. https://www.w3schools.com/colors/colors_names.asp
+
 When adding a new tag, put a comma after the *previous* tag. The last tag before background-color should be comma free. 
 
 Code for symbols and characters
